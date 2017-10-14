@@ -48,7 +48,7 @@
   <preference name="SplashShowOnlyFirstTime" value="false"/>
   <preference name="FadeSplashScreen" value="false"/>
   <feature name="SplashScreen">
-    <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen"/>
+    <param name="android-package" value="org.apache.cordova.splashscreen"/>
   </feature>
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
