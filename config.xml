@@ -31,6 +31,10 @@
   <preference name="AndroidPersistentFileLocation" value="Compatibility"/>
   <preference name="iosPersistentFileLocation" value="Compatibility"/>
   <preference name="SplashScreen" value="screen"/>
+  <!-- Do not auto hide splash on iOS -->
+<preference name="AutoHideSplashScreen" value="false" />
+<!-- Do not auto hide splash on Android -->
+<gap:plugin name="org.apache.cordova.splashscreen" />
   <preference name="SplashScreenDelay" value="10000"/>
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
