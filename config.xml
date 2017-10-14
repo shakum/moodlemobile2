@@ -5,7 +5,7 @@
         Barry-Wehmiller Design Group
     </description>
   <author href="http://b-core.in" email="support@b-core.in">
-        CORE Mobile team
+        CORE Team
     </author>
   <content src="index.html"/>
   <access origin="*"/>
@@ -17,21 +17,10 @@
   <allow-navigation href="data:*"/>
   <allow-navigation href="*"/>
   <allow-intent href="*"/>
-  <preference name="permissions" value="none" />
-  <preference name="orientation" value="portrait"/>
+  <preference name="orientation" value="default"/>
   <preference name="target-device" value="universal"/>
   <preference name="fullscreen" value="false"/>
-  <preference name="webviewbounce" value="true"/>
-  <preference name="prerendered-icon" value="true" />
-  <preference name="stay-in-webview" value="false" />
-  <preference name="ios-statusbarstyle" value="black-opaque" />
-  <preference name="detect-data-types" value="true" />
-  <preference name="exit-on-suspend" value="false" />
-  <preference name="show-splash-screen-spinner" value="true" />
-  <preference name="auto-hide-splash-screen" value="true" />
-  <preference name="disable-cursor" value="false" />
-  <preference name="android-minSdkVersion" value="7" />
-  <preference name="android-installLocation" value="auto" />
+  <preference name="webviewbounce" value="false"/>
   <preference name="AppendUserAgent" value="MoodleMobile"/>
   <preference name="android-minSdkVersion" value="14"/>
   <preference name="android-targetSdkVersion" value="19"/>
@@ -41,15 +30,8 @@
   <preference name="KeyboardDisplayRequiresUserAction" value="false"/>
   <preference name="AndroidPersistentFileLocation" value="Compatibility"/>
   <preference name="iosPersistentFileLocation" value="Compatibility"/>
-  <preference name="ShowSplashScreen" value="true"/>
   <preference name="SplashScreen" value="screen"/>
-  <preference name="SplashScreenDelay" value="6000"/>
-  <preference name="AutoHideSplashScreen" value="true"/>
-  <preference name="SplashShowOnlyFirstTime" value="false"/>
-  <preference name="FadeSplashScreen" value="false"/>
-  <feature name="SplashScreen">
-    <param name="android-package" value="org.apache.cordova.splashscreen"/>
-  </feature>
+  <preference name="SplashScreenDelay" value="3000"/>
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
